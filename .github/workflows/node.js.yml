@@ -32,11 +32,11 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: public folder
-        path: .
+        path: ./public
 
 
   test:
-
+    needs: build
     runs-on: ubuntu-latest
 
     strategy:
