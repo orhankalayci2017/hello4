@@ -56,4 +56,5 @@ jobs:
       with:
         name: public folder
 
+    - run: npm ci
     - run: npm test    
